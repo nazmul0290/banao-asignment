@@ -1,0 +1,13 @@
+.hero{
+    position: relative;
+}
+
+.hero__img{
+    object-fit: cover;
+}
+.hero-content{
+    position: absolute;
+    bottom: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+}
