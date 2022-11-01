@@ -1,0 +1,54 @@
+.post {
+  border: 1px solid;
+}
+
+.post__content {
+  margin: 20px;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  gap: 10px;
+}
+
+.post__category {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 18px;
+  line-height: 23.4px;
+  font-weight: 500;
+  color: black;
+}
+
+.post__title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 134.17%;
+
+  color: #000000;
+}
+
+.post__description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 134.17%;
+  color: #5c5c5c;
+}
+
+.post__author {
+  align-items: center;
+}
+.post__author img {
+  border-radius: 50%;
+}
+
+.post__author__icon {
+  background: #edeef0;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.post__author__icon > svg {
+  padding-right: 4px;
+  color: #2d2d2d;
+}
